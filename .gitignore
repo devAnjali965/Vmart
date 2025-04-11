@@ -1,0 +1,5 @@
+# Dependency directories
+node_modules/
+venv/
+.env/
+.env.*  # e.g. .env.local, .env.production
