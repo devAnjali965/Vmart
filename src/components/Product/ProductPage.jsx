@@ -38,26 +38,6 @@ const ProductPage = () => {
 
   return (
     <div>
-      {/* <Row className="justify-content-end mb-2 align-items-center  ">
-        <Col className='  text-end'>
-          <Filters products={products} categories={categories} onUpdate={handleFilterSort} />
-        </Col>
-      </Row>
-      {loading ? (
-        <div className="text-center my-5">
-          <Spinner animation="border" />
-        </div>
-      ) : (
-        <Row className="g-4">
-          {currentItems.map(product => (
-            <Col key={product.id} sm={12} md={6} lg={4} xl={3}>
-              <ProductCard product={product} />
-            </Col>
-          ))}
-        </Row>
-      )} */}
-
-
       <Row className="mb-2">
         {loading ? (
           <div className="text-center my-5 w-100">
@@ -93,12 +73,6 @@ const ProductPage = () => {
           />
         </Col>
       </Row>
-      {/* <PaginationBar
-        totalItems={filtered.length}
-        itemsPerPage={itemsPerPage}
-        currentPage={currentPage}
-        onPageChange={setCurrentPage}
-      /> */}
     </div>
   );
 };
