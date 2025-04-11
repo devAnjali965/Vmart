@@ -9,9 +9,7 @@ const App = () => {
   return (
     <CartProvider>
       <Header />
-      {/* <Container className="my-4"> */}
         <ProductPage />
-      {/* </Container> */}
     </CartProvider>
   );
 };
