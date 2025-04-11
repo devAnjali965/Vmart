@@ -1,28 +1,3 @@
-// import React from 'react';
-// import { Navbar, Container, Nav, Badge } from 'react-bootstrap';
-// import { FaShoppingCart } from 'react-icons/fa'
-
-// import { useCart } from '../context/CartContext';
-
-// const Header = () => {
-//   const { cart } = useCart();
-//   const itemCount = cart.reduce((sum, item) => sum + item.qty, 0);
-
-//   return (
-//     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-//       <Container>
-//         <Navbar.Brand href="#">FakeStore</Navbar.Brand>
-//         <Nav className="ms-auto">
-//           <Nav.Link href="#">
-//             <FaShoppingCart size={20} /> <Badge bg="light" text="dark">{itemCount}</Badge>
-//           </Nav.Link>
-//         </Nav>
-//       </Container>
-//     </Navbar>
-//   );
-// };
-
-// export default Header;
 import React, { useState } from 'react';
 import { Navbar, Container, Nav, Badge } from 'react-bootstrap';
 import { FaShoppingCart } from 'react-icons/fa';
